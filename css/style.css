@@ -10,12 +10,14 @@ body{
     height: 90vh;
 }
 
+.title{
+    text-align: center;
+}
+
 header{
     display: flex;
-    justify-content: space-between;
-    padding: 20px 60px;
+    padding: 15px 25px;
     background-color: #fff;
-    align-items: center;
 }
 
 header h1{
@@ -38,9 +40,6 @@ section{
     height: 400px;
     background-color: #fff;
     position: absolute;
-   /* margin-top: 10px;
-    margin-left: 10px; */
-
 
     top: 50%;
     left: 50%;
@@ -54,14 +53,7 @@ section{
     border: 2px solid #666;
 }
 
-section h1{
-    color: #444;
-    border-bottom: 3px solid rgb(46, 46, 255);
-    padding: 6px;
-    margin-bottom: 30px;
-    font-size: 35px;
-    
-}
+
 
 section .link-container, .format-container, .button-container{
     display: flex;
